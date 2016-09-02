@@ -1,0 +1,27 @@
+{% extends 'webportal/base.html' %}
+{% block body %}
+    {% include "webportal/navigationbar.html" %}
+<div class="container-fluid">
+<div class="content">
+  <div class="row">
+    <div class="col-sm-2">
+    </div>
+    <div class="col-sm-6">
+      {% include "webportal/mainSearchBar.html" %}
+    </div>
+    <div class="col-sm-4 sidenav">
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-2">
+    </div>
+    <div class="col-sm-6">
+      dette er en stor test
+    </div>
+    <div class="col-sm-4 sidenav">
+    {% include "webportal/signup.html" %}
+    </div>
+  </div>
+</div>
+</div>
+{% endblock %}
